@@ -10,7 +10,7 @@ filter.addEventListener('keyup', filterItems);
 
 function addItem(e) { 
   e.preventDefault();
-  // Item
+  // Item 
   var newItem = document.getElementById('item').value;
   var li = document.createElement('li');
   li.className = 'list-group-item';
