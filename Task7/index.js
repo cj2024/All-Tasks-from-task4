@@ -8,7 +8,7 @@ itemList.addEventListener('click', removeItem);
 // Added an event listener in order to write the function
 filter.addEventListener('keyup', filterItems);
 
-function addItem(e) {
+function addItem(e) { 
   e.preventDefault();
   var newItem = document.getElementById('item').value;
   var li = document.createElement('li');
