@@ -34,7 +34,7 @@ function removeItem(e) {
     if (confirm('Are You Sure')) {
       var li = e.target.parentElement;
       itemList.removeChild(li);
-    }
+    } 
   }
 }
 
